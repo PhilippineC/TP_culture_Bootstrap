@@ -1,0 +1,89 @@
+<div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal">&times;</button>
+  <h1>Formulaire de contact</h1>
+</div>
+
+<!-- Formulaire de contact -->
+      <div class="modal-body">
+        <div class="container-fluid">
+          <form class="form-horizontal">
+            <fieldset>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="titre">Titre du message</label>  
+                  <div class="col-md-6">
+                    <input id="titre" name="titre" placeholder="" class="form-control input-md" type="text">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="nom">Votre nom</label>  
+                  <div class="col-md-6">
+                    <input id="nom" name="nom" placeholder="" class="form-control input-md" type="text">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="email">Votre email</label>  
+                  <div class="col-md-6">
+                    <input id="email" name="email" placeholder="" class="form-control input-md" type="text">
+                  </div>
+                </div>
+
+
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="datenaissance">Votre date de naissance</label>  
+                  <div class="col-md-6">
+                    <input id="datenaissance" name="datenaissance" placeholder="" class="form-control input-md" type="text">
+                    <span class="help-block">Le format attendu est JJ/MM/AAAA.</span>  
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="resident">Résident de Bootown</label>
+                  <div class="col-md-6">
+                    <label class="checkbox-inline" for="resident-0">
+                      <input name="resident" id="resident-0" value="Oui" type="checkbox">
+                      Oui
+                    </label>
+                    <label class="checkbox-inline" for="resident-1">
+                      <input name="resident" id="resident-1" value="Non" type="checkbox">
+                      Non
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="nationalite">Votre nationalité</label>
+                  <div class="col-md-6">
+                    <select id="nationalite" name="nationalite" class="form-control">
+                      <option value="France">France</option>
+                      <option value="Espagne">Espagne</option>
+                      <option value="Portugal">Portugal</option>
+                      <option value="Italie">Italie</option>
+                      <option value="Allemagne">Allemagne</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="message">Votre message</label>
+                  <div class="col-md-6">                     
+                    <textarea class="form-control" id="message" name="message"></textarea>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="valider"></label>
+                  <div class="col-md-6">
+                    <button id="valider" name="valider" class="btn btn-primary">Envoyer</button>
+                  </div>
+                </div>
+
+              </fieldset>
+            </form>
+        </div>
+      </div>
+
+<!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>

@@ -1,0 +1,67 @@
+/* Styles de base */
+      body {
+       padding-top: 60px;
+       background-color: #dce4e6;
+        width: 80%;
+       margin: auto;
+      }
+      .jumbotron {
+        background-color: #dce4e6;
+      }
+      .glyphicon {
+        margin-right: 5px;
+      }
+      /* boutons dans le corps de l'accueil */
+      .jumbotron .btn {
+        width: 170px;
+        margin-right: 20px;
+      }
+      /* Bouton de connexion large */
+      #connexion {
+        width: 100%;
+      }
+      /* bouton se connecter dans la navbar*/
+      #bouton_connexion {
+        padding-top : 0px;
+        padding-bottom : 0px;
+      }
+      .navbar-btn.btn-sm {
+        margin-top : 7.5px;
+      }
+      /* couleur du navbrand blanc à hover */
+      .navbar-default .navbar-brand:hover {
+      color: white;
+      }
+
+      /* Titres */
+      h2 {
+        color :#2c3e50;
+      }
+      .jumbotron p {
+        font-size: 0.9em;
+      }
+
+      /* Images */
+      img {
+        width: 100%;
+      }
+      /* Mise en forme de l'en-tête lors d'un affichage xs */
+      .inline-form input {
+      display: inline-block;
+      width: 100px;
+      }
+      @media (min-width: 768px) {
+        .navbar-form .form-control {
+        width: 95px;
+        }
+      }
+
+      @media (max-width: 992px) {
+        .list-unstyled {
+        text-align: center;
+        }
+        body {
+          width: 100%;
+          margin: auto;
+        }
+      }
